@@ -1,0 +1,11 @@
+/target/
+.classpath
+.mvn/wrapper/maven-wrapper.jar
+.mvn/wrapper/maven-wrapper.properties
+.project
+.settings/org.eclipse.core.resources.prefs
+.settings/org.eclipse.jdt.core.prefs
+.settings/org.eclipse.m2e.core.prefs
+hs_err_pid13136.log
+hs_err_pid9624.log
+New Text Document.txt

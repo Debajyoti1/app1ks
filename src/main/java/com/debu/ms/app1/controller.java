@@ -20,7 +20,7 @@ public class controller {
 		a.put("type", "app1");
 		a.put("port", env.getProperty("local.server.port"));
 		a.put("version", "v1");
-		a.put("hostname", env.getProperty("HOSTNME"));
+		a.put("hostname", env.getProperty("HOSTNAME"));
 		return a;
 	}
 
