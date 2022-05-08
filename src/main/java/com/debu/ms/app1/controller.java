@@ -18,10 +18,11 @@ public class controller {
 		// return "app1 from port "+env.getProperty("local.server.port");
 		HashMap<String, String> a = new HashMap<String, String>();
 		a.put("type", "app1");
-		a.put("port", env.getProperty("local.server.port"));
-		a.put("version", "v1");
-		a.put("hostname", env.getProperty("HOSTNAME"));
+		a.put("app1port", env.getProperty("local.server.port"));
+		a.put("app1version", "v1");
+		a.put("app1hostname", env.getProperty("HOSTNAME"));
 		return a;
+		
 	}
 
 }
