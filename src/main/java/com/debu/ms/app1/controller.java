@@ -22,7 +22,6 @@ public class controller {
 		a.put("app1version", "v1");
 		a.put("app1hostname", env.getProperty("HOSTNAME"));
 		return a;
-		
 	}
 
 }
